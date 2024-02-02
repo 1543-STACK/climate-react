@@ -3,7 +3,7 @@ import FormattedDate from "./FormattedDate";
 import "./CityWeather.css";
 import Weathericon from "./WeatherIcon";
 import Temperature from "./Temperature";
-import WeatherTemperature from "./WeatherTemperature";
+import WeatherForecast from "./WeatherForecast";
 
 export default function Weather(props) {
   return (
