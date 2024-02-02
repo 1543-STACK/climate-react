@@ -1,5 +1,5 @@
 import React from "react";
-import { WeatherSvg } from "weather-icons-animated";
+import ReactAnimatedWeather from "react-animated-weather";
 
 export default function Weathericon(props) {
   const animatedIcon = {
@@ -24,7 +24,7 @@ export default function Weathericon(props) {
   };
 
   return (
-    <WeatherSvg
+    <ReactAnimatedWeather
       state={animatedIcon[props.icon]}
       width={props.width}
       height={props.height}
