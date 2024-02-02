@@ -7,7 +7,7 @@ function App() {
     <div>
       <div className="App mb-0">
         <div className="container">
-          <SearchCityForm defaultCity="Somerset West" />
+          <SearchCityForm defaultCity="Durban" />
         </div>
       </div>
       <footer className="fw-bold text-center mt-0">
